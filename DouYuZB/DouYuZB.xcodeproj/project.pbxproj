@@ -10,7 +10,7 @@
 		CEA0DA1B1F565E72004345EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0DA1A1F565E72004345EB /* AppDelegate.swift */; };
 		CEA0DA221F565E72004345EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA0DA211F565E72004345EB /* Assets.xcassets */; };
 		CEA0DA251F565E72004345EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA0DA231F565E72004345EB /* LaunchScreen.storyboard */; };
-		CEA0DA2D1F5695E1004345EB /* classes in Resources */ = {isa = PBXBuildFile; fileRef = CEA0DA2C1F5695E1004345EB /* classes */; };
+		CEA0DA381F56B32D004345EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA0DA371F56B32D004345EB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +19,7 @@
 		CEA0DA211F565E72004345EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA0DA241F565E72004345EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA0DA261F565E72004345EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA0DA2C1F5695E1004345EB /* classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = classes; sourceTree = "<group>"; };
+		CEA0DA371F56B32D004345EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +52,69 @@
 		CEA0DA191F565E72004345EB /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
-				CEA0DA2C1F5695E1004345EB /* classes */,
+				CEA0DA301F56B307004345EB /* Classes */,
 				CEA0DA1A1F565E72004345EB /* AppDelegate.swift */,
 				CEA0DA211F565E72004345EB /* Assets.xcassets */,
 				CEA0DA231F565E72004345EB /* LaunchScreen.storyboard */,
 				CEA0DA261F565E72004345EB /* Info.plist */,
 			);
 			path = DouYuZB;
+			sourceTree = "<group>";
+		};
+		CEA0DA301F56B307004345EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEA0DA311F56B307004345EB /* Follow */,
+				CEA0DA321F56B307004345EB /* Home */,
+				CEA0DA331F56B307004345EB /* Live */,
+				CEA0DA341F56B307004345EB /* Main */,
+				CEA0DA351F56B307004345EB /* Profile */,
+				CEA0DA361F56B307004345EB /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEA0DA311F56B307004345EB /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		CEA0DA321F56B307004345EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CEA0DA331F56B307004345EB /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		CEA0DA341F56B307004345EB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CEA0DA371F56B32D004345EB /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CEA0DA351F56B307004345EB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CEA0DA361F56B307004345EB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,8 +176,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA0DA381F56B32D004345EB /* Main.storyboard in Resources */,
 				CEA0DA251F565E72004345EB /* LaunchScreen.storyboard in Resources */,
-				CEA0DA2D1F5695E1004345EB /* classes in Resources */,
 				CEA0DA221F565E72004345EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
