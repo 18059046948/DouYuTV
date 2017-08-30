@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CEA0DA1B1F565E72004345EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0DA1A1F565E72004345EB /* AppDelegate.swift */; };
-		CEA0DA201F565E72004345EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA0DA1E1F565E72004345EB /* Main.storyboard */; };
 		CEA0DA221F565E72004345EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA0DA211F565E72004345EB /* Assets.xcassets */; };
 		CEA0DA251F565E72004345EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA0DA231F565E72004345EB /* LaunchScreen.storyboard */; };
 		CEA0DA2D1F5695E1004345EB /* classes in Resources */ = {isa = PBXBuildFile; fileRef = CEA0DA2C1F5695E1004345EB /* classes */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		CEA0DA171F565E72004345EB /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA0DA1A1F565E72004345EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEA0DA1F1F565E72004345EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA0DA211F565E72004345EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA0DA241F565E72004345EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA0DA261F565E72004345EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				CEA0DA2C1F5695E1004345EB /* classes */,
 				CEA0DA1A1F565E72004345EB /* AppDelegate.swift */,
-				CEA0DA1E1F565E72004345EB /* Main.storyboard */,
 				CEA0DA211F565E72004345EB /* Assets.xcassets */,
 				CEA0DA231F565E72004345EB /* LaunchScreen.storyboard */,
 				CEA0DA261F565E72004345EB /* Info.plist */,
@@ -126,7 +123,6 @@
 				CEA0DA251F565E72004345EB /* LaunchScreen.storyboard in Resources */,
 				CEA0DA2D1F5695E1004345EB /* classes in Resources */,
 				CEA0DA221F565E72004345EB /* Assets.xcassets in Resources */,
-				CEA0DA201F565E72004345EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEA0DA1E1F565E72004345EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEA0DA1F1F565E72004345EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEA0DA231F565E72004345EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -268,6 +256,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DPZX.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -281,6 +270,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DPZX.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
